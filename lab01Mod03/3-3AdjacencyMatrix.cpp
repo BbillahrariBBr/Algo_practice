@@ -36,15 +36,15 @@ using namespace std;
 int main()
 {
 int nodes = 4; //O(1)
-int matrix[nodes][nodes]; //O(n^2)
+int matrix[nodes][nodes] = {}; //O(n^2)
   //assign 0 O(n^2)
-  for(int i = 0; i<nodes; i++)
-  {
-      for(int j = 0; j<nodes; j++)
-      {
-          matrix[i][j] = 0;
-      }
-  }
+//   for(int i = 0; i<nodes; i++)
+//   {
+//       for(int j = 0; j<nodes; j++)
+//       {
+//           matrix[i][j] = 0;
+//       }
+//   }
 
     matrix[0][1]=1; //O(1)
 
