@@ -11,7 +11,11 @@ int fibo(int n)
     if(n == 1) return 1;
 
     //general case
-    return fibo(n-1) + fibo(n-2);
+    int num1 = fibo(n-1);
+    int num2 = fibo(n-2);
+    return num1+num2;
+
+//    return fibo(n-1) + fibo(n-2);
 }
 
 int main()
